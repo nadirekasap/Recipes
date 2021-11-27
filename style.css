@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header Start */
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden ; /*tasmayi gizledim */
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    margin:0;
+    padding: 32px 5px;
+    color:#855349;
+    background-color: #FEF5E7 ;
+    border-bottom: #6c2d2094  4px solid;
+}
+header nav{
+    float: right;
+    margin-right: 80px;
+}
+header nav li{
+    padding-right: 25px;
+    display:inline; /*yan yana getirdim */
+    color:#855349 ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link a{
+    color:#855349;
+    text-decoration: none;
+  }
+a:link{
+    color:#855349;
+    text-decoration: none;
+  }
+#home a {
+    color:#855349;
+    text-decoration: none;
+}
+
+/*Section Start */
+.welcome {
+    text-align: center; /*yaziyi ortala*/
+    color:#855349c5;
+    height:400px;
+    
+}
+.imgone {
+    background-image:url(img/01.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-size:cover;
+    background-position:center ; /*ortaladim */
+    height:400px;
+    width:1519px;
+
+}
+.imgtwo {
+    background-image:url(img/02.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1519px;   
+}
+.imgthree {
+    background-image:url(img/03.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1519px;    
+}
+.imgfour {
+    background-image:url(img/04.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1519px;    
+}
+.recipe{
+    background-image:url(img/recipe.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1519px;    
+}
+.about{
+    background-image:url(img/about.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1536px;    
+}
+.contact{
+    background-image:url(img/contact.jpg);
+    background-repeat: no-repeat; /* gorsel tekrarlanmasin */
+    background-position: center; /*ortaladim */
+    background-size:cover;
+    height:400px;
+    width: 1519px;     
+}
+.welcome h1 {
+    margin-top:65px;
+    padding: 60px 0 20px 0;
+    font-size: 30px;
+  }
+.welcome p {
+    padding: 10px;
+    font-size: 20px;
+  }
+#part {
+    color:#855349;
+}
+#write{
+    color:#8c5042d5 ;
+}
+/*Tarifler */
+.specification {
+    overflow:visible ; /*tasmayi yani liste gorunurunu actim */
+}
+
+.specification li {
+    display: list-item; /* inline vermistim onu bozdum */  
+}
+.specification ul {
+    list-style-type:square ;
+}
+h2 {
+    color:#855349;
+}
+h3{
+    color:#9E6558;
+}
+h4{
+    color:#BB7668 ;
+}
+footer {
+    padding: 27px;
+    text-align: center;
+    font-size: 13px;
+    background-color:#FEF5E7;
+    color: #855349;
+  }
+
